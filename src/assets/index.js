@@ -12,6 +12,16 @@ import laptop from './laptop.png'
 import cameras from './cameras.png'
 import headphones from './headphones.png'
 import phones from './phones.png'
+import homeBg from './homeBg.png'
+import chair from './chair.png'
+import kitchenChair from './kitchenChair.png'
+import sofa from './sofa.png'
+import pots from './pots.png'
+import mixer from './mixer.png'
+import coffeeMaker from './coffeeMaker.png'
+import appliance from './appliance.png'
+import flowerVase from './flowerVase.png'
+import electronicsBg from './electronicsBg.png'
 
 export {
   megastoreLogo,
@@ -28,4 +38,14 @@ export {
   cameras,
   headphones,
   phones,
+  homeBg,
+  chair,
+  sofa,
+  kitchenChair,
+  pots,
+  mixer,
+  coffeeMaker,
+  appliance,
+  flowerVase,
+  electronicsBg,
 }

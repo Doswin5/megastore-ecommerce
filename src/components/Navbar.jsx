@@ -4,7 +4,7 @@ import { megastoreLogo, person, chat, favorite, cart, menu, flag } from '../asse
 
 const Navbar = () => {
   return (
-    <div className='bg-white'>
+    <div className='bg-white fixed left-0 right-0'>
       <div className='flex justify-between items-center px-[100px] py-[24px]'>
         <Link to='/'>
           <img src={megastoreLogo} alt="" />

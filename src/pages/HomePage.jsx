@@ -3,7 +3,7 @@ import { HeroSection, Deals, Homes, Electronics, Quotes, Recommended, Suppliers,
 
 const HomePage = () => {
   return (
-    <div className='bg-secondary px-[100px] py-[24px]'>
+    <div className='bg-secondary px-[100px] pt-[180px]'>
       <HeroSection />
       <Deals />
       <Homes />
