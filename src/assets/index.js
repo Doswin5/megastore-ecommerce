@@ -23,6 +23,9 @@ import appliance from './appliance.png'
 import flowerVase from './flowerVase.png'
 import electronicsBg from './electronicsBg.png'
 import quotesBg from './quotesBg.png'
+import tshirt from './tshirt.png'
+import service1 from './service1.png'
+import flag1 from './flag1.png'
 
 export {
   megastoreLogo,
@@ -50,4 +53,7 @@ export {
   flowerVase,
   electronicsBg,
   quotesBg,
+  tshirt,
+  service1,
+  flag1,
 }

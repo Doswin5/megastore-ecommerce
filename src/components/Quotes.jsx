@@ -3,7 +3,8 @@ import { quotesBg } from '../assets'
 
 const Quotes = () => {
   const styles = {
-    backgroundImage: `url(${quotesBg})`
+    backgroundImage: `url(${quotesBg})`,
+    backgroundRepeat: 'no-repeat'
   }
 
   return (
