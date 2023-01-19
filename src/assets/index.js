@@ -22,6 +22,7 @@ import coffeeMaker from './coffeeMaker.png'
 import appliance from './appliance.png'
 import flowerVase from './flowerVase.png'
 import electronicsBg from './electronicsBg.png'
+import quotesBg from './quotesBg.png'
 
 export {
   megastoreLogo,
@@ -48,4 +49,5 @@ export {
   appliance,
   flowerVase,
   electronicsBg,
+  quotesBg,
 }
