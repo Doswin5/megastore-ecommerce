@@ -4,7 +4,7 @@ import { flag1 } from '../assets'
 const Suppliers = () => {
   return (
     <div className='my-[40px]'>
-      <h3 className="font-semibold text-dimBlack mb-[24px]">
+      <h3 className="font-semibold text-dimBlack mb-[16px]">
         Suppliers by Region
       </h3>
       <div className="grid grid-cols-5 gap-[24px]">

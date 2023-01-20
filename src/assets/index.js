@@ -26,6 +26,11 @@ import quotesBg from './quotesBg.png'
 import tshirt from './tshirt.png'
 import service1 from './service1.png'
 import flag1 from './flag1.png'
+import facebook from './facebook.png'
+import appStore from './appStore.png'
+import email from './email.png'
+import usFlag from './usFlag.png'
+import expandLess from './expandLess.png'
 
 export {
   megastoreLogo,
@@ -56,4 +61,9 @@ export {
   tshirt,
   service1,
   flag1,
+  facebook,
+  appStore,
+  email,
+  usFlag,
+  expandLess,
 }

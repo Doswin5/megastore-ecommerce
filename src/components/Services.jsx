@@ -3,7 +3,7 @@ import { service1 } from '../assets'
 
 const Services = () => {
   return (
-    <div className='my-[40px]'>
+    <div className='mt-[40px]'>
       <h3 className="font-semibold text-dimBlack mb-[16px]">
         Our Services
       </h3>
