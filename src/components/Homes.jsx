@@ -16,7 +16,7 @@ const Homes = () => {
         <button className="btn2 mt-[16px] font-medium">Source Now</button>
       </div>
       <div className="grid grid-cols-4 w-full">
-        <div className="flex flex-col p-[16px] border">
+        <div className="flex flex-col p-[16px] border hover:bg-gray-100 cursor-pointer">
           <p className="text-dimBlack">
             Soft Chairs
           </p>
@@ -28,7 +28,7 @@ const Homes = () => {
             <img src={chair} alt="" />
           </div>
         </div>
-        <div className="flex flex-col p-[16px] border">
+        <div className="flex flex-col p-[16px] border hover:bg-gray-100 cursor-pointer">
           <p className="text-dimBlack">
             Sofa & Chairs
           </p>
@@ -40,7 +40,7 @@ const Homes = () => {
             <img src={sofa} alt="" />
           </div>
         </div>
-        <div className="flex flex-col p-[16px] border">
+        <div className="flex flex-col p-[16px] border hover:bg-gray-100 cursor-pointer">
           <p className="text-dimBlack">
             Kitchen Chair
           </p>
@@ -52,7 +52,7 @@ const Homes = () => {
             <img src={kitchenChair} alt="" />
           </div>
         </div>
-        <div className="flex flex-col p-[16px] border">
+        <div className="flex flex-col p-[16px] border hover:bg-gray-100 cursor-pointer">
           <p className="text-dimBlack">
             Cooking Pot
           </p>
@@ -64,7 +64,7 @@ const Homes = () => {
             <img src={pots} alt="" />
           </div>
         </div>
-        <div className="flex flex-col p-[16px] border">
+        <div className="flex flex-col p-[16px] border hover:bg-gray-100 cursor-pointer">
           <p className="text-dimBlack">
             Kitchen Mixer
           </p>
@@ -76,7 +76,7 @@ const Homes = () => {
             <img src={mixer} alt="" />
           </div>
         </div>
-        <div className="flex flex-col p-[16px] border">
+        <div className="flex flex-col p-[16px] border hover:bg-gray-100 cursor-pointer">
           <p className="text-dimBlack">
             Flower Vase
           </p>
@@ -88,7 +88,7 @@ const Homes = () => {
             <img src={flowerVase} alt="" />
           </div>
         </div>
-        <div className="flex flex-col p-[16px] border">
+        <div className="flex flex-col p-[16px] border hover:bg-gray-100 cursor-pointer">
           <p className="text-dimBlack">
             Home Appliance
           </p>
@@ -100,7 +100,7 @@ const Homes = () => {
             <img src={appliance} alt="" />
           </div>
         </div>
-        <div className="flex flex-col p-[16px] border">
+        <div className="flex flex-col p-[16px] border hover:bg-gray-100 cursor-pointer">
           <p className="text-dimBlack">
             Coffee Maker
           </p>

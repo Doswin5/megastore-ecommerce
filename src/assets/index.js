@@ -23,14 +23,43 @@ import appliance from './appliance.png'
 import flowerVase from './flowerVase.png'
 import electronicsBg from './electronicsBg.png'
 import quotesBg from './quotesBg.png'
-import tshirt from './tshirt.png'
+import recItem1 from './recItem1.png'
+import recItem2 from './recItem2.png'
+import recItem3 from './recItem3.png'
+import recItem4 from './recItem4.png'
+import recItem5 from './recItem5.png'
+import recItem6 from './recItem6.png'
+import recItem7 from './recItem7.png'
+import recItem9 from './recItem9.png'
+import recItem10 from './recItem10.png'
 import service1 from './service1.png'
-import flag1 from './flag1.png'
+import service2 from './service2.png'
+import service3 from './service3.png'
+import service4 from './service4.png'
 import facebook from './facebook.png'
+import twitter from './twitter.png'
+import linkedin from './linkedin.png'
+import instagram from './instagram.png'
+import youtube from './youtube.png'
 import appStore from './appStore.png'
+import googlePlay from './googlePlay.png'
 import email from './email.png'
-import usFlag from './usFlag.png'
 import expandLess from './expandLess.png'
+import uaeFlag from './uaeFlag.png'
+import australiaFlag from './australiaFlag.png'
+import usFlag from './usFlag.png'
+import russiaFlag from './russiaFlag.png'
+import italyFlag from './italyFlag.png'
+import denmarkFlag from './denmarkFlag.png'
+import franceFlag from './franceFlag.png'
+import electItem1 from './electItem1.png'
+import electItem2 from './electItem2.png'
+import electItem3 from './electItem3.png'
+import electItem4 from './electItem4.png'
+import electItem5 from './electItem5.png'
+import electItem6 from './electItem6.png'
+import electItem7 from './electItem7.png'
+import electItem8 from './electItem8.png'
 
 export {
   megastoreLogo,
@@ -58,12 +87,41 @@ export {
   flowerVase,
   electronicsBg,
   quotesBg,
-  tshirt,
+  recItem1,
+  recItem2,
+  recItem3,
+  recItem4,
+  recItem5,
+  recItem6,
+  recItem7,
+  recItem9,
+  recItem10,
   service1,
-  flag1,
+  service2,
+  service3,
+  service4,
   facebook,
+  twitter,
+  linkedin,
+  instagram,
+  youtube,
   appStore,
+  googlePlay,
   email,
-  usFlag,
   expandLess,
+  uaeFlag,
+  australiaFlag,
+  usFlag,
+  russiaFlag,
+  italyFlag,
+  denmarkFlag,
+  franceFlag,
+  electItem1,
+  electItem2,
+  electItem3,
+  electItem4,
+  electItem5,
+  electItem6,
+  electItem7,
+  electItem8,
 }

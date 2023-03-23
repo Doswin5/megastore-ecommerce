@@ -1,5 +1,6 @@
 import React from 'react'
-import { electronicsBg, chair, sofa, kitchenChair, pots, mixer, coffeeMaker, appliance, flowerVase } from '../assets'
+import { electronicsBg } from '../assets'
+import { electronics } from '../constants'
 
 const Electronics = () => {
   const styles = {
@@ -16,102 +17,22 @@ const Electronics = () => {
         <button className="btn2 mt-[16px] font-medium">Source Now</button>
       </div>
       <div className="grid grid-cols-4 w-full">
-        <div className="flex flex-col p-[16px] border">
-          <p className="text-dimBlack">
-            Soft Chairs
-          </p>
-          <div className='flex items-center justify-between'>
-            <p className="text-dimmestBlack">
-              From <br />
-              USD 19
-            </p>
-            <img src={chair} alt="" />
-          </div>
-        </div>
-        <div className="flex flex-col p-[16px] border">
-          <p className="text-dimBlack">
-            Sofa & Chairs
-          </p>
-          <div className='flex items-center justify-between'>
-            <p className="text-dimmestBlack">
-              From <br />
-              USD 19
-            </p>
-            <img src={sofa} alt="" />
-          </div>
-        </div>
-        <div className="flex flex-col p-[16px] border">
-          <p className="text-dimBlack">
-            Kitchen Chair
-          </p>
-          <div className='flex items-center justify-between'>
-            <p className="text-dimmestBlack">
-              From <br />
-              USD 19
-            </p>
-            <img src={kitchenChair} alt="" />
-          </div>
-        </div>
-        <div className="flex flex-col p-[16px] border">
-          <p className="text-dimBlack">
-            Cooking Pot
-          </p>
-          <div className='flex items-center justify-between'>
-            <p className="text-dimmestBlack">
-              From <br />
-              USD 19
-            </p>
-            <img src={pots} alt="" />
-          </div>
-        </div>
-        <div className="flex flex-col p-[16px] border">
-          <p className="text-dimBlack">
-            Kitchen Mixer
-          </p>
-          <div className='flex items-center justify-between'>
-            <p className="text-dimmestBlack">
-              From <br />
-              USD 100
-            </p>
-            <img src={mixer} alt="" />
-          </div>
-        </div>
-        <div className="flex flex-col p-[16px] border">
-          <p className="text-dimBlack">
-            Flower Vase
-          </p>
-          <div className='flex items-center justify-between'>
-            <p className="text-dimmestBlack">
-              From <br />
-              USD 39
-            </p>
-            <img src={flowerVase} alt="" />
-          </div>
-        </div>
-        <div className="flex flex-col p-[16px] border">
-          <p className="text-dimBlack">
-            Home Appliance
-          </p>
-          <div className='flex items-center justify-between'>
-            <p className="text-dimmestBlack">
-              From <br />
-              USD 19
-            </p>
-            <img src={appliance} alt="" />
-          </div>
-        </div>
-        <div className="flex flex-col p-[16px] border">
-          <p className="text-dimBlack">
-            Coffee Maker
-          </p>
-          <div className='flex items-center justify-between'>
-            <p className="text-dimmestBlack">
-              From <br />
-              USD 10
-            </p>
-            <img src={coffeeMaker} alt="" />
-          </div>
-        </div>
+        {
+          electronics.map(electronic => (
+            <div className="flex flex-col p-[16px] border hover:bg-gray-100 cursor-pointer">
+              <p className="text-dimBlack">
+                {electronic.itemName}
+              </p>
+              <div className='flex items-center justify-between'>
+                <p className="text-dimmestBlack">
+                  From <br />
+                  USD {electronic.price}
+                </p>
+                <img src={electronic.image} alt="" />
+              </div>
+            </div>
+          ))
+        }
       </div>
     </div>
   )

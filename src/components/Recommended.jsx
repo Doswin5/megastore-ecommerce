@@ -1,5 +1,5 @@
 import React from 'react'
-import { tshirt } from '../assets'
+import { recs } from '../constants'
 
 const Recommended = () => {
   return (
@@ -8,76 +8,17 @@ const Recommended = () => {
         Recommended Items
       </h3>
       <div className="grid grid-cols-5 gap-[24px]">
-        <div className="flex flex-col bg-white rounded-[8px] p-[16px] border">
-          <img src={tshirt} alt="" />
-          <p className="font-semibold text-dimBlack mt-[16px] mb-[4px]">$10.30</p>
-          <p className="font-normal text-dimmerBlack">
-            T-shirts with multiple colors, for men
-          </p>
-        </div>
-        <div className="flex flex-col bg-white rounded-[8px] p-[16px] border">
-          <img src={tshirt} alt="" />
-          <p className="font-semibold text-dimBlack mt-[16px] mb-[4px]">$10.30</p>
-          <p className="font-normal text-dimmerBlack">
-            T-shirts with multiple colors, for men
-          </p>
-        </div>
-        <div className="flex flex-col bg-white rounded-[8px] p-[16px] border">
-          <img src={tshirt} alt="" />
-          <p className="font-semibold text-dimBlack mt-[16px] mb-[4px]">$10.30</p>
-          <p className="font-normal text-dimmerBlack">
-            T-shirts with multiple colors, for men
-          </p>
-        </div>
-        <div className="flex flex-col bg-white rounded-[8px] p-[16px] border">
-          <img src={tshirt} alt="" />
-          <p className="font-semibold text-dimBlack mt-[16px] mb-[4px]">$10.30</p>
-          <p className="font-normal text-dimmerBlack">
-            T-shirts with multiple colors, for men
-          </p>
-        </div>
-        <div className="flex flex-col bg-white rounded-[8px] p-[16px] border">
-          <img src={tshirt} alt="" />
-          <p className="font-semibold text-dimBlack mt-[16px] mb-[4px]">$10.30</p>
-          <p className="font-normal text-dimmerBlack">
-            T-shirts with multiple colors, for men
-          </p>
-        </div>
-        <div className="flex flex-col bg-white rounded-[8px] p-[16px] border">
-          <img src={tshirt} alt="" />
-          <p className="font-semibold text-dimBlack mt-[16px] mb-[4px]">$10.30</p>
-          <p className="font-normal text-dimmerBlack">
-            T-shirts with multiple colors, for men
-          </p>
-        </div>
-        <div className="flex flex-col bg-white rounded-[8px] p-[16px] border">
-          <img src={tshirt} alt="" />
-          <p className="font-semibold text-dimBlack mt-[16px] mb-[4px]">$10.30</p>
-          <p className="font-normal text-dimmerBlack">
-            T-shirts with multiple colors, for men
-          </p>
-        </div>
-        <div className="flex flex-col bg-white rounded-[8px] p-[16px] border">
-          <img src={tshirt} alt="" />
-          <p className="font-semibold text-dimBlack mt-[16px] mb-[4px]">$10.30</p>
-          <p className="font-normal text-dimmerBlack">
-            T-shirts with multiple colors, for men
-          </p>
-        </div>
-        <div className="flex flex-col bg-white rounded-[8px] p-[16px] border">
-          <img src={tshirt} alt="" />
-          <p className="font-semibold text-dimBlack mt-[16px] mb-[4px]">$10.30</p>
-          <p className="font-normal text-dimmerBlack">
-            T-shirts with multiple colors, for men
-          </p>
-        </div>
-        <div className="flex flex-col bg-white rounded-[8px] p-[16px] border">
-          <img src={tshirt} alt="" />
-          <p className="font-semibold text-dimBlack mt-[16px] mb-[4px]">$10.30</p>
-          <p className="font-normal text-dimmerBlack">
-            T-shirts with multiple colors, for men
-          </p>
-        </div>
+        {
+          recs.map(rec => (
+            <div className="flex flex-col bg-white rounded-[8px] p-[16px] border hover:scale-105 transform duration-300 cursor-pointer">
+              <img src={rec.image} alt="" />
+              <p className="font-semibold text-dimBlack mt-[16px] mb-[4px]">${rec.price.toFixed(2)}</p>
+              <p className="font-normal text-dimmerBlack">
+                {rec.description}
+              </p>
+            </div>
+          ))
+        }
       </div>
     </div>
   )

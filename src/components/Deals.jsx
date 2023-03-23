@@ -32,7 +32,7 @@ const Deals = () => {
       </div>
 
       <div className="grid grid-cols-5 items-center w-full">
-        <div className="flex flex-col items-center py-[24px] border w-full">
+        <div className="flex flex-col items-center py-[24px] border w-full hover:bg-gray-100 cursor-pointer">
           <img src={watches} alt="" />
           <p className="font-normal mt-[24px] mb-[8px]">
             Smart Watches
@@ -41,7 +41,7 @@ const Deals = () => {
             -25%
           </span>
         </div>
-        <div className="flex flex-col items-center py-[24px] px-[16px] border w-full">
+        <div className="flex flex-col items-center py-[24px] px-[16px] border w-full hover:bg-gray-100 cursor-pointer">
           <img src={laptop} alt="" />
           <p className="font-normal mt-[24px] mb-[8px]">
             Laptop
@@ -50,7 +50,7 @@ const Deals = () => {
             -15%
           </span>
         </div>
-        <div className="flex flex-col items-center py-[24px] px-[16px] border w-full">
+        <div className="flex flex-col items-center py-[24px] px-[16px] border w-full hover:bg-gray-100 cursor-pointer">
           <img src={cameras} alt="" />
           <p className="font-normal mt-[24px] mb-[8px]">
             GoPro Cameras
@@ -59,7 +59,7 @@ const Deals = () => {
             -40%
           </span>
         </div>
-        <div className="flex flex-col items-center py-[24px] px-[16px] border w-full">
+        <div className="flex flex-col items-center py-[24px] px-[16px] border w-full hover:bg-gray-100 cursor-pointer">
           <img src={headphones} alt="" />
           <p className="font-normal mt-[24px] mb-[8px]">
             Headphones
@@ -68,7 +68,7 @@ const Deals = () => {
             -25%
           </span>
         </div>
-        <div className="flex flex-col items-center py-[24px] px-[16px] border w-full">
+        <div className="flex flex-col items-center py-[24px] px-[16px] border w-full hover:bg-gray-100 cursor-pointer">
           <img src={phones} alt="" />
           <p className="font-normal mt-[24px] mb-[8px]">
             Smart Phones

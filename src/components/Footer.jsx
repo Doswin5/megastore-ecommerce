@@ -1,5 +1,5 @@
 import React from 'react'
-import { appStore, expandLess, facebook, megastoreLogo, usFlag } from '../assets'
+import { appStore, expandLess, facebook, googlePlay, instagram, linkedin, megastoreLogo, twitter, usFlag, youtube } from '../assets'
 
 const Footer = () => {
   return (
@@ -12,10 +12,10 @@ const Footer = () => {
           </p>
           <div className="flex items-center gap-[10px]">
             <img src={facebook} alt="" />
-            <img src={facebook} alt="" />
-            <img src={facebook} alt="" />
-            <img src={facebook} alt="" />
-            <img src={facebook} alt="" />
+            <img src={twitter} alt="" />
+            <img src={linkedin} alt="" />
+            <img src={instagram} alt="" />
+            <img src={youtube} alt="" />
           </div>
         </div>
         <div>
@@ -91,7 +91,7 @@ const Footer = () => {
             Get Apps
           </p>
           <img src={appStore} alt="" className='mb-[8px]' />
-          <img src={appStore} alt="" className='mb-[8px]' />
+          <img src={googlePlay} alt="" className='mb-[8px]' />
         </div>
       </div>
       <div className="flex justify-between items-center py-[24px] bg-secondary px-[100px] ">

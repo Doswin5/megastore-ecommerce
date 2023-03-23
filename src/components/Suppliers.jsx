@@ -1,5 +1,5 @@
 import React from 'react'
-import { flag1 } from '../assets'
+import { suppliers } from '../constants'
 
 const Suppliers = () => {
   return (
@@ -8,116 +8,21 @@ const Suppliers = () => {
         Suppliers by Region
       </h3>
       <div className="grid grid-cols-5 gap-[24px]">
-        <div className="flex items-center gap-[10px]">
-          <img src={flag1} alt="" />
-          <div>
-            <p className="font-normal text-dimBlack">
-              Arab Emirates
-            </p>
-            <h6 className="text-dimmestBlack font-normal">
-              shopname.ae
-            </h6>
-          </div>
-        </div>
-        <div className="flex items-center gap-[10px]">
-          <img src={flag1} alt="" />
-          <div>
-            <p className="font-normal text-dimBlack">
-              Arab Emirates
-            </p>
-            <h6 className="text-dimmestBlack font-normal">
-              shopname.ae
-            </h6>
-          </div>
-        </div>
-        <div className="flex items-center gap-[10px]">
-          <img src={flag1} alt="" />
-          <div>
-            <p className="font-normal text-dimBlack">
-              Arab Emirates
-            </p>
-            <h6 className="text-dimmestBlack font-normal">
-              shopname.ae
-            </h6>
-          </div>
-        </div>
-        <div className="flex items-center gap-[10px]">
-          <img src={flag1} alt="" />
-          <div>
-            <p className="font-normal text-dimBlack">
-              Arab Emirates
-            </p>
-            <h6 className="text-dimmestBlack font-normal">
-              shopname.ae
-            </h6>
-          </div>
-        </div>
-        <div className="flex items-center gap-[10px]">
-          <img src={flag1} alt="" />
-          <div>
-            <p className="font-normal text-dimBlack">
-              Arab Emirates
-            </p>
-            <h6 className="text-dimmestBlack font-normal">
-              shopname.ae
-            </h6>
-          </div>
-        </div>
-        <div className="flex items-center gap-[10px]">
-          <img src={flag1} alt="" />
-          <div>
-            <p className="font-normal text-dimBlack">
-              Arab Emirates
-            </p>
-            <h6 className="text-dimmestBlack font-normal">
-              shopname.ae
-            </h6>
-          </div>
-        </div>
-        <div className="flex items-center gap-[10px]">
-          <img src={flag1} alt="" />
-          <div>
-            <p className="font-normal text-dimBlack">
-              Arab Emirates
-            </p>
-            <h6 className="text-dimmestBlack font-normal">
-              shopname.ae
-            </h6>
-          </div>
-        </div>
-        <div className="flex items-center gap-[10px]">
-          <img src={flag1} alt="" />
-          <div>
-            <p className="font-normal text-dimBlack">
-              Arab Emirates
-            </p>
-            <h6 className="text-dimmestBlack font-normal">
-              shopname.ae
-            </h6>
-          </div>
-        </div>
-        <div className="flex items-center gap-[10px]">
-          <img src={flag1} alt="" />
-          <div>
-            <p className="font-normal text-dimBlack">
-              Arab Emirates
-            </p>
-            <h6 className="text-dimmestBlack font-normal">
-              shopname.ae
-            </h6>
-          </div>
-        </div>
-        <div className="flex items-center gap-[10px]">
-          <img src={flag1} alt="" />
-          <div>
-            <p className="font-normal text-dimBlack">
-              Arab Emirates
-            </p>
-            <h6 className="text-dimmestBlack font-normal">
-              shopname.ae
-            </h6>
-          </div>
-        </div>
+        {
+          suppliers.map(supplier => (
+            <div className="flex items-center gap-[10px]">
+              <img src={supplier.flag} alt="" />
+              <div>
+                <p className="font-normal text-dimBlack">
+                  {supplier.country}
+                </p>
+                <h6 className="text-dimmestBlack font-normal">
+                  {supplier.webUrl}
+                </h6>
+              </div>
+            </div>
+          ))
+        } 
       </div>
     </div>
   )
